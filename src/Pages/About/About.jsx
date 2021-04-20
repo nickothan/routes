@@ -4,7 +4,7 @@ import {MiAbout} from "./style.js";
 export default function About() {
     return (
         <MiAbout>
-            <h2>About</h2>;
+            <h2>About</h2>
             <div className="sobreNosotros">
                 <div className="somos">
                     <h3>¿Quienes Somos?</h3>

@@ -4,19 +4,36 @@ export const MiAbout = styled.div`
     whidth: 100%;
     height: 600px;
     max-width: 1024px;
-    background: red;
+    background: salmon;
 
     margin: auto;
     padding: 20px;
 
-    h2,
+    h2 {
+        margin: 20px;
+        text-align: center;
+    }
+
     h3 {
         text-align: center;
         color: white;
     }
     .sobreNosotros {
-        display: flex;
-        justify-content: space-evenly;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 5px;
+
+        @media (max-width: 990px) {
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 10px;
+            justify-items: center;
+        }
+
+        @media (max-width: 768px) {
+            grid-template-columns: 1fr;
+            grid-gap: 10px;
+            justify-items: center;
+        }
     }
     .sobreNosotros > div {
         width: 300px;
