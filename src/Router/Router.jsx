@@ -1,6 +1,8 @@
 import React from "react";
 import {BrowserRouter, Switch, Route, Link} from "react-router-dom";
 
+import {Rutas} from "./style.js";
+
 import Home from "../Pages/Home";
 import About from "../Pages/About";
 import ContactUs from "../Pages/ContactUs";
@@ -8,17 +10,23 @@ import ContactUs from "../Pages/ContactUs";
 export default function Router() {
     return (
         <BrowserRouter>
-            <div>
+            <Rutas>
                 <nav>
                     <ul>
                         <li>
-                            <Link to="/">Home</Link>
+                            <Link to="/" className="btn-pr">
+                                Home
+                            </Link>
                         </li>
-                        <li>
-                            <Link to="/about">About</Link>
+                        <li className="boton">
+                            <Link to="/about" className="btn-pr">
+                                About
+                            </Link>
                         </li>
-                        <li>
-                            <Link to="/contact-us">Contact Us</Link>
+                        <li className="boton">
+                            <Link to="/contact-us" className="btn-pr">
+                                Contact Us
+                            </Link>
                         </li>
                     </ul>
                 </nav>
@@ -36,7 +44,7 @@ export default function Router() {
                         <Home />
                     </Route>
                 </Switch>
-            </div>
+            </Rutas>
         </BrowserRouter>
     );
 }
