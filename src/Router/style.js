@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Rutas = styled.div`
+export const Header = styled.div`
     whidth: 100%;
     height: 600px;
     max-width: 1024px;

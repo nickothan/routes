@@ -1,7 +1,7 @@
 import React from "react";
 import {BrowserRouter, Switch, Route, Link} from "react-router-dom";
 
-import {Rutas} from "./style.js";
+import {Header} from "./style.js";
 
 import Home from "../Pages/Home";
 import About from "../Pages/About";
@@ -10,7 +10,7 @@ import ContactUs from "../Pages/ContactUs";
 export default function Router() {
     return (
         <BrowserRouter>
-            <Rutas>
+            <Header>
                 <nav>
                     <ul>
                         <li>
@@ -18,12 +18,12 @@ export default function Router() {
                                 Home
                             </Link>
                         </li>
-                        <li className="boton">
+                        <li>
                             <Link to="/about" className="btn-pr">
                                 About
                             </Link>
                         </li>
-                        <li className="boton">
+                        <li>
                             <Link to="/contact-us" className="btn-pr">
                                 Contact Us
                             </Link>
@@ -44,7 +44,7 @@ export default function Router() {
                         <Home />
                     </Route>
                 </Switch>
-            </Rutas>
+            </Header>
         </BrowserRouter>
     );
 }

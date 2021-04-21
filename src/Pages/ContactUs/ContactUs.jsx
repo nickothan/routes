@@ -20,7 +20,7 @@ export default function ContactUs() {
                 </div>
                 <form action="">
                     <label htmlFor="">nombre</label>
-                    <input type="text" />
+                    <input type="text" placeholder=""/>
                     <label htmlFor="">Correo</label>
                     <input type="text" />
                     <label htmlFor="">Telefono</label>
