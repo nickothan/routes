@@ -19,28 +19,3 @@ body {
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
-
-/*Boton primario*/
-.btn-pr {
-    float: left;
-    background-color: #616cff;
-    color: white;
-    font-size: 16px;
-    text-align: center;
-    text-decoration: none;
-    line-height: 50px;
-    margin: 5px;
-    width: 150px;
-    height: 48px;
-    border: none;
-    border-radius: 8px;
-    box-shadow: 3px 8px 5px grey;
-    cursor: pointer;
-}
-.btn-pr:hover {
-    box-shadow: 2px 5px 5px grey;
-}
-.btn-pr:active {
-    opacity: 90%;
-    box-shadow: none;
-}
