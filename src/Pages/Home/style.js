@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
 export const MiHome = styled.div`
-    whidth: 100%;
-
     max-width: 1024px;
     background: royalblue;
 
@@ -11,12 +9,15 @@ export const MiHome = styled.div`
 
     h2 {
         margin: 20px;
-        color: salmon;
+        color: white;
         text-align: center;
     }
     .presentacion {
         display: grid;
         grid-template-columns: 1fr 1fr;
+
+        align-items: center;
+        justify-items: center;
 
         @media (max-width: 768px) {
             grid-template-columns: 1fr;
