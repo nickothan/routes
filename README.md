@@ -1,9 +1,47 @@
+# Apoyo
+
+para mayor información pueden enviar un mensaje al perfil de linkedin https://www.linkedin.com/in/sergio-ramirez-
+Autores y reconocimiento
+
+Sergio Ramirez. quiero expresar un profundo agradecimiento a mi hermano y mentor revi.r@outlook.com el cual me impulso y motivo a seguir adelante con los nuevos conocimientos y como aplicarlos.
+
+# licencia
+
+Este repositorio es de libre descarga como referencia del trabajo hecho
+
+# Estado del proyecto
+
+El proyecto esta en estado de desarrollo.
+
 # Rutas
 
-Agregamos styled-components para organizar nuestro css
---- yarn add styled-components
+Home
+About
+Contact
 
-########################################
+# Styled components
+
+    Agregamos styled-components para organizar nuestro css
+    --- yarn add styled-components
+
+### yarn add @fortawesome/fontawesome-svg-core
+
+### yarn add @fortawesome/free-solid-svg-icons
+
+### yarn add @fortawesome/free-brands-svg-icons
+
+### yarn add @fortawesome/react-fontawesome
+
+    Agregamos fontawesome y importamos...
+
+    import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+    import { fab } from '@fortawesome/free-brands-svg-icons'
+
+    import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
+
+    declaramos en maqueta:
+    <FontAwesomeIcon icon={faCoffee} />
 
 # Getting Started with Create React App
 
