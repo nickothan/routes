@@ -5,24 +5,12 @@ import {MiHome} from "./style.js";
 export default function Home() {
     return (
         <MiHome>
-            <h2>El universo</h2>
             <div className="home">
                 <div className="presentacion">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dicta corporis
-                        voluptas dolorem esse amet vero molestiae rerum dolore sequi at cumque fugit
-                        alias repellendus, a incidunt quidem aperiam error? Architecto beatae
-                        veritatis voluptas rem rerum distinctio facere quia dolorem sunt! Ipsa,
-                        perferendis asperiores molestias sunt repellendus nemo esse qui quis iste
-                        exercitationem doloremque quos. Sit ducimus totam sapiente sunt. Veritatis
-                        doloremque voluptas minima magni ea aliquam perferendis atque tempora
-                        tempore animi. Cupiditate velit ex nemo praesentium hic maiores explicabo,
-                        quibusdam est esse. Ipsum debitis iusto, iste consequatur repudiandae ex.
-                        Voluptates, debitis id, assumenda temporibus in adipisci suscipit atque eius
-                        dolor commodi excepturi est eos reiciendis quis natus odio ducimus cumque
-                        impedit neque illum consequatur aut quam repudiandae. Porro, maxime! Quas
-                        beatae nihil voluptate architecto quam quaerat assumenda quos possimus
-                    </p>
+                    <h2>
+                        El universo existe hace billones de años y tuvimos la fortuna de existir al
+                        mismo tiempo
+                    </h2>
                     <img
                         src="https://storage.googleapis.com/www-paredro-com/uploads/2019/07/df45b364-pia15416_small.jpg"
                         alt="Espacio"
@@ -103,10 +91,10 @@ export default function Home() {
                             alt="Imagen de noticia principal"
                         />
                         <div className="descripcionNotocia">
-                            <h3>El Universo</h3>
+                            <h3>10 datos curiosos de nuestro sistema solar</h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero fuga
-                                tempore adipisci eius veniam distinctio, ! Nam.
+                                se publicó un estudio según el cual puede existir un noveno planeta
+                                en el sistema solar...
                             </p>
                             <p> 10/20/2050</p>
                         </div>
@@ -114,12 +102,15 @@ export default function Home() {
                     <div className="noticiasActuales">
                         <div className="noticiaActual">
                             <img
-                                src="https://i.pinimg.com/originals/5a/ad/bf/5aadbfd2356924cace9b76f18c360e9a.png"
+                                src="https://www.muyinteresante.com.mx/wp-content/uploads/2018/05/httpstved-prod.adobecqms.netcontentdameditorialTelevisamexicomuyinteresantemxespacio151118univerparr.imgo_.jpg"
                                 alt="Imagen de noticia principal"
                             />
                             <div className="descripcionNotocia">
-                                <h3>El Universo</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <h3>Universos paralelos</h3>
+                                <p>
+                                    entran en juego la existencia de varios universos o realidades
+                                    relativamente independientes
+                                </p>
                                 <p> 10/20/2050</p>
                             </div>
                         </div>
@@ -129,20 +120,22 @@ export default function Home() {
                                 alt="Imagen de noticia principal"
                             />
                             <div className="descripcionNotocia">
-                                <h3>El Universo</h3>
+                                <h3>El sistema solar en el que vivimos</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                 <p> 10/20/2050</p>
                             </div>
                         </div>
                         <div className="noticiaActual">
                             <img
-                                src="https://i.pinimg.com/originals/5a/ad/bf/5aadbfd2356924cace9b76f18c360e9a.png"
+                                src="https://st2.depositphotos.com/1722785/9450/i/600/depositphotos_94503338-stock-photo-multiple-glowing-bubble-universes.jpg"
                                 alt="Imagen de noticia principal"
                             />
                             <div className="descripcionNotocia">
-                                <h3>El Universo</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <p> 10/20/2050</p>
+                                <h3>Cosas curiosas del Multiverso</h3>
+                                <p>
+                                    La estructura del multiverso, la naturaleza de cada universo
+                                    dentro de él, así como la relación entre...
+                                </p>
                             </div>
                         </div>
                     </div>
